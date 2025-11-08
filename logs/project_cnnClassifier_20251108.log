@@ -1,0 +1,29 @@
+[2025-11-08 16:34:28,197] [INFO] [template.py:74] → 🚀 Project structure creation started...
+[2025-11-08 16:34:28,199] [INFO] [template.py:57] → 📁 Directory created: .github\workflows
+[2025-11-08 16:34:28,201] [INFO] [template.py:61] → 📝 File created: .github\workflows\.gitkeep
+[2025-11-08 16:34:28,207] [INFO] [template.py:57] → 📁 Directory created: src\cnnClassifier
+[2025-11-08 16:34:28,210] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\__init__.py
+[2025-11-08 16:34:28,212] [INFO] [template.py:57] → 📁 Directory created: src\cnnClassifier\components
+[2025-11-08 16:34:28,218] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\components\__init__.py
+[2025-11-08 16:34:28,220] [INFO] [template.py:57] → 📁 Directory created: src\cnnClassifier\utils
+[2025-11-08 16:34:28,223] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\utils\__init__.py
+[2025-11-08 16:34:28,225] [INFO] [template.py:57] → 📁 Directory created: src\cnnClassifier\config
+[2025-11-08 16:34:28,228] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\config\__init__.py
+[2025-11-08 16:34:28,231] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\config\configuration.py
+[2025-11-08 16:34:28,235] [INFO] [template.py:57] → 📁 Directory created: src\cnnClassifier\pipeline
+[2025-11-08 16:34:28,237] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\pipeline\__init__.py
+[2025-11-08 16:34:28,239] [INFO] [template.py:57] → 📁 Directory created: src\cnnClassifier\entity
+[2025-11-08 16:34:28,242] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\entity\__init__.py
+[2025-11-08 16:34:28,244] [INFO] [template.py:57] → 📁 Directory created: src\cnnClassifier\constants
+[2025-11-08 16:34:28,247] [INFO] [template.py:61] → 📝 File created: src\cnnClassifier\constants\__init__.py
+[2025-11-08 16:34:28,250] [INFO] [template.py:57] → 📁 Directory created: config
+[2025-11-08 16:34:28,252] [INFO] [template.py:61] → 📝 File created: config\config.yaml
+[2025-11-08 16:34:28,255] [INFO] [template.py:61] → 📝 File created: dvc.yaml
+[2025-11-08 16:34:28,257] [INFO] [template.py:61] → 📝 File created: params.yaml
+[2025-11-08 16:34:28,260] [INFO] [template.py:61] → 📝 File created: requirements.txt
+[2025-11-08 16:34:28,263] [INFO] [template.py:61] → 📝 File created: setup.py
+[2025-11-08 16:34:28,265] [INFO] [template.py:57] → 📁 Directory created: research
+[2025-11-08 16:34:28,268] [INFO] [template.py:61] → 📝 File created: research\trials.ipynb
+[2025-11-08 16:34:28,269] [INFO] [template.py:57] → 📁 Directory created: templates
+[2025-11-08 16:34:28,272] [INFO] [template.py:61] → 📝 File created: templates\index.html
+[2025-11-08 16:34:28,272] [INFO] [template.py:76] → 🎉 Project structure setup completed successfully!
