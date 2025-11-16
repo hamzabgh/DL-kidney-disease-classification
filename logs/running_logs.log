@@ -45,3 +45,413 @@ x==========x]
 [2025-11-13 20:17:47,918: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-11-14 20:57:02,068: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 20:57:02,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 20:57:02,079: INFO: common: created directory at: artifacts]
+[2025-11-14 20:58:13,878: INFO: common: json file saved at: scores.json]
+[2025-11-14 20:58:19,121: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-14 20:58:20,624: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmp6d274aq0\model\data\model\assets]
+[2025-11-14 21:05:24,362: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6c617076c8b64ddaa3c26d5bd20c3e1a/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 21:16:56,426: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6c617076c8b64ddaa3c26d5bd20c3e1a/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 21:17:44,626: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6c617076c8b64ddaa3c26d5bd20c3e1a/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 21:20:43,609: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6c617076c8b64ddaa3c26d5bd20c3e1a/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 21:22:00,583: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6c617076c8b64ddaa3c26d5bd20c3e1a/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 22:02:22,178: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 22:02:22,185: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 22:02:22,189: INFO: common: created directory at: artifacts]
+[2025-11-14 22:03:35,187: INFO: common: json file saved at: scores.json]
+[2025-11-14 22:03:44,654: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow/runs/create]
+[2025-11-14 22:04:01,006: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-14 22:04:02,525: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpb85tv00q\model\data\model\assets]
+[2025-11-14 22:09:15,527: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/2e727b9e6b304a3185c685c913e000f5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 22:15:22,383: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/2e727b9e6b304a3185c685c913e000f5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 22:17:35,375: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/2e727b9e6b304a3185c685c913e000f5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 22:18:04,864: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/2e727b9e6b304a3185c685c913e000f5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 22:19:45,002: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/2e727b9e6b304a3185c685c913e000f5/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-14 22:27:33,104: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 22:27:33,110: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 22:27:33,115: INFO: common: created directory at: artifacts]
+[2025-11-14 22:28:35,572: INFO: common: json file saved at: scores.json]
+[2025-11-14 22:28:40,577: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-14 22:28:41,998: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmph40ykzen\model\data\model\assets]
+[2025-11-15 00:10:27,286: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-15 00:10:27,298: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-15 00:10:27,301: INFO: common: created directory at: artifacts]
+[2025-11-15 00:11:28,405: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-15 00:11:28,412: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-15 00:11:28,417: INFO: common: created directory at: artifacts]
+[2025-11-15 00:12:21,069: INFO: common: json file saved at: scores.json]
+[2025-11-15 00:12:29,905: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-15 00:12:31,163: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpwjdmym9b\model\data\model\assets]
+[2025-11-15 00:17:44,746: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6d6db2c6d78244d181de0e7ca67d9059/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 00:18:49,459: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6d6db2c6d78244d181de0e7ca67d9059/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 00:22:12,932: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6d6db2c6d78244d181de0e7ca67d9059/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 00:22:41,390: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6d6db2c6d78244d181de0e7ca67d9059/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 21:18:01,030: WARNING: connectionpool: Retrying (Retry(total=0, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/6d6db2c6d78244d181de0e7ca67d9059/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 22:38:16,454: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/hamzaboughanim06/DL-kidney-disease-classification "HTTP/1.1 200 OK"]
+[2025-11-15 22:38:16,469: INFO: helpers: Initialized MLflow to track repo "hamzaboughanim06/DL-kidney-disease-classification"]
+[2025-11-15 22:38:16,478: INFO: helpers: Repository hamzaboughanim06/DL-kidney-disease-classification initialized!]
+[2025-11-15 22:38:34,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-15 22:38:34,806: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-15 22:38:34,811: INFO: common: created directory at: artifacts]
+[2025-11-15 22:39:45,442: INFO: common: json file saved at: scores.json]
+[2025-11-15 22:39:48,802: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-15 22:39:49,792: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpw4reorr6\model\data\model\assets]
+[2025-11-15 22:58:23,094: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-15 22:58:23,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-15 22:58:23,105: INFO: common: created directory at: artifacts]
+[2025-11-15 22:59:14,844: INFO: common: json file saved at: scores.json]
+[2025-11-15 22:59:19,021: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-15 22:59:20,155: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpmje1beeh\model\data\model\assets]
+[2025-11-15 23:18:15,869: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-15 23:18:15,877: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-15 23:18:15,881: INFO: common: created directory at: artifacts]
+[2025-11-15 23:18:16,686: INFO: 1173273077: Model loaded successfully from artifacts/training/model.h5]
+[2025-11-15 23:18:16,715: INFO: 1173273077: Validation generator created with 139 samples]
+[2025-11-15 23:18:16,717: INFO: 1173273077: Starting model evaluation...]
+[2025-11-15 23:19:14,886: INFO: 1173273077: Evaluation complete - Loss: 12.5041, Accuracy: 0.5396]
+[2025-11-15 23:19:14,890: INFO: common: json file saved at: scores.json]
+[2025-11-15 23:19:14,893: INFO: 1173273077: Scores saved to scores.json]
+[2025-11-15 23:19:16,403: INFO: 1173273077: Logged metrics: {'loss': 12.504073143005371, 'accuracy': 0.5395683646202087}]
+[2025-11-15 23:19:18,919: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-15 23:19:20,400: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpi9qstyzj\model\data\model\assets]
+[2025-11-15 23:38:15,333: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/f4b9275e97fc4adfa0be132618ba6234/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 23:40:18,022: WARNING: connectionpool: Retrying (Retry(total=3, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/f4b9275e97fc4adfa0be132618ba6234/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 23:43:22,628: WARNING: connectionpool: Retrying (Retry(total=2, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/f4b9275e97fc4adfa0be132618ba6234/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 23:45:34,957: WARNING: connectionpool: Retrying (Retry(total=1, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/f4b9275e97fc4adfa0be132618ba6234/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 23:46:49,050: WARNING: connectionpool: Retrying (Retry(total=0, connect=4, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AA8050ECE0>, 'Connection to dagshub.com timed out. (connect timeout=120)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/f4b9275e97fc4adfa0be132618ba6234/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-15 23:48:13,357: WARNING: connectionpool: Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AA805ABC70>, 'Connection to dagshub.com timed out. (connect timeout=120)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow/runs/update]
+[2025-11-15 23:48:59,457: WARNING: connectionpool: Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AA80539870>, 'Connection to dagshub.com timed out. (connect timeout=120)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow/runs/update]
+[2025-11-15 23:49:49,567: WARNING: connectionpool: Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AA8053BC10>, 'Connection to dagshub.com timed out. (connect timeout=120)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow/runs/update]
+[2025-11-15 23:50:32,510: WARNING: connectionpool: Retrying (Retry(total=1, connect=2, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow/runs/update]
+[2025-11-15 23:51:15,969: WARNING: connectionpool: Retrying (Retry(total=0, connect=1, read=4, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AA80539300>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow/runs/update]
+[2025-11-15 23:51:17,487: ERROR: 1173273077: MLflow logging failed: API request to https://dagshub.com/hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/f4b9275e97fc4adfa0be132618ba6234/artifacts/model/data/model/variables/variables.data-00000-of-00001 failed with timeout exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/f4b9275e97fc4adfa0be132618ba6234/artifacts/model/data/model/variables/variables.data-00000-of-00001 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001AA8053B2E0>, 'Connection to dagshub.com timed out. (connect timeout=120)')). To increase the timeout, set the environment variable MLFLOW_HTTP_REQUEST_TIMEOUT (default: 120, type: int) to a larger value.]
+[2025-11-16 00:14:07,009: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 00:14:07,015: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 00:14:07,020: INFO: common: created directory at: artifacts]
+[2025-11-16 00:14:58,889: INFO: common: json file saved at: scores.json]
+[2025-11-16 00:15:02,919: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 00:15:04,258: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmp3tfpho93\model\data\model\assets]
+[2025-11-16 00:49:36,189: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 00:49:36,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 00:49:36,202: INFO: common: created directory at: artifacts]
+[2025-11-16 00:50:27,393: INFO: common: json file saved at: scores.json]
+[2025-11-16 00:50:31,239: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 00:50:32,299: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmp8to0093m\model\data\model\assets]
+[2025-11-16 01:25:27,232: INFO: main: >>>>>> stage evaluation started <<<<<<]
+[2025-11-16 01:25:27,237: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 01:25:27,239: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 01:25:27,240: INFO: common: created directory at: artifacts]
+[2025-11-16 01:26:29,677: INFO: common: json file saved at: scores.json]
+[2025-11-16 01:26:35,458: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 01:26:37,912: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpvlj4cd2g\model\data\model\assets]
+[2025-11-16 01:27:01,902: INFO: main: >>>>>> stage evaluation completed <<<<<<
+
+x==========x]
+[2025-11-16 01:30:24,894: INFO: main: >>>>>> stage evaluation started <<<<<<]
+[2025-11-16 01:30:24,898: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 01:30:24,900: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 01:30:24,901: INFO: common: created directory at: artifacts]
+[2025-11-16 01:31:11,738: INFO: common: json file saved at: scores.json]
+[2025-11-16 01:31:16,724: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 01:31:18,510: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpdy912__9\model\data\model\assets]
+[2025-11-16 01:31:35,978: INFO: main: >>>>>> stage evaluation completed <<<<<<
+
+x==========x]
+[2025-11-16 01:39:14,002: INFO: main: *******************]
+[2025-11-16 01:39:14,004: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 01:39:14,010: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 01:39:14,015: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 01:39:14,016: INFO: common: created directory at: artifacts]
+[2025-11-16 01:40:14,986: INFO: common: json file saved at: scores.json]
+[2025-11-16 01:40:19,818: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 01:40:21,089: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpf_3wbzp4\model\data\model\assets]
+[2025-11-16 01:40:43,293: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 01:50:31,237: INFO: main: *******************]
+[2025-11-16 01:50:31,238: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 01:50:31,241: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 01:50:31,244: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 01:50:31,245: INFO: common: created directory at: artifacts]
+[2025-11-16 01:51:31,212: INFO: common: json file saved at: scores.json]
+[2025-11-16 01:51:37,234: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 01:51:38,736: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpemcdqpjd\model\data\model\assets]
+[2025-11-16 01:51:59,426: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 01:54:09,460: INFO: main: *******************]
+[2025-11-16 01:54:09,461: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 01:54:09,464: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 01:54:09,467: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 01:54:09,468: INFO: common: created directory at: artifacts]
+[2025-11-16 01:54:59,431: INFO: common: json file saved at: scores.json]
+[2025-11-16 01:55:03,585: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 01:55:04,900: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmp8nyg02it\model\data\model\assets]
+[2025-11-16 01:55:20,815: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 02:03:34,366: ERROR: main: EOF occurred in violation of protocol (_ssl.c:997)]
+Traceback (most recent call last):
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    raise exc
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpcore\_backends\sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: EOF occurred in violation of protocol (_ssl.c:997)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\main.py", line 53, in <module>
+    dagshub.init(repo_owner='hamzaboughanim06', repo_name='DL-kidney-disease-classification', mlflow=True)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\dagshub\common\init.py", line 86, in init
+    repo_api = RepoAPI(f"{repo_owner}/{repo_name}", host=host)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\dagshub\common\api\repo.py", line 78, in __init__
+    self.auth = dagshub.auth.get_authenticator(host=host)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\dagshub\auth\tokens.py", line 374, in get_authenticator
+    return _get_token_storage(**kwargs).get_authenticator(**kwargs)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\dagshub\auth\tokens.py", line 122, in get_authenticator
+    token = self.get_token_object(host, fail_if_no_token, **kwargs)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\dagshub\auth\tokens.py", line 165, in get_token_object
+    user = TokenStorage.get_username_of_token(token, host)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\dagshub\auth\tokens.py", line 239, in get_username_of_token
+    resp = http_request("GET", check_url, auth=auth)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\dagshub\common\helpers.py", line 60, in http_request
+    return httpx.request(method, url, **kwargs)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_api.py", line 109, in request
+    return client.request(
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: EOF occurred in violation of protocol (_ssl.c:997)
+[2025-11-16 11:55:03,778: INFO: main: *******************]
+[2025-11-16 11:55:03,780: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 11:55:03,792: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 11:55:03,797: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 11:55:03,799: INFO: common: created directory at: artifacts]
+[2025-11-16 11:55:59,163: INFO: common: json file saved at: scores.json]
+[2025-11-16 11:56:04,478: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 11:56:06,058: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpxi9p2qnu\model\data\model\assets]
+[2025-11-16 11:56:26,629: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 12:05:36,327: INFO: main: *******************]
+[2025-11-16 12:05:36,328: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 12:05:36,331: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 12:05:36,333: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 12:05:36,334: INFO: common: created directory at: artifacts]
+[2025-11-16 12:06:30,549: INFO: common: json file saved at: scores.json]
+[2025-11-16 12:06:31,352: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 12:06:31,368: INFO: helpers: Accessing as hamzaboughanim06]
+[2025-11-16 12:06:32,135: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/hamzaboughanim06/DL-kidney-disease-classification "HTTP/1.1 200 OK"]
+[2025-11-16 12:06:32,935: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 12:06:32,941: INFO: helpers: Initialized MLflow to track repo "hamzaboughanim06/DL-kidney-disease-classification"]
+[2025-11-16 12:06:32,944: INFO: helpers: Repository hamzaboughanim06/DL-kidney-disease-classification initialized!]
+[2025-11-16 12:06:37,618: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 12:06:38,697: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpccuh8w7e\model\data\model\assets]
+[2025-11-16 12:19:53,129: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 12:33:05,612: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-16 12:33:05,615: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 12:33:05,618: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 12:33:05,619: INFO: common: created directory at: artifacts]
+[2025-11-16 12:33:05,621: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-16 12:33:05,622: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-16 12:33:54,123: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-16 12:33:56,540: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-11-16 12:33:56,540: INFO: main: >>>>>> stage prepare Base Model started <<<<<<]
+[2025-11-16 12:33:56,543: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 12:33:56,546: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 12:33:56,546: INFO: common: created directory at: artifacts]
+[2025-11-16 12:33:56,547: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-16 12:33:57,806: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-11-16 12:33:58,248: INFO: main: >>>>>> stage prepare Base Model completed <<<<<<
+
+x==========x]
+[2025-11-16 12:33:58,249: INFO: main: *******************]
+[2025-11-16 12:33:58,251: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-11-16 12:33:58,257: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 12:33:58,262: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 12:33:58,263: INFO: common: created directory at: artifacts]
+[2025-11-16 12:33:58,265: INFO: common: created directory at: artifacts\training]
+[2025-11-16 12:41:13,816: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-11-16 12:41:13,817: INFO: main: *******************]
+[2025-11-16 12:41:13,819: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 12:41:13,827: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 12:41:13,831: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 12:41:13,833: INFO: common: created directory at: artifacts]
+[2025-11-16 12:42:09,551: INFO: common: json file saved at: scores.json]
+[2025-11-16 12:42:10,247: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 12:42:10,260: INFO: helpers: Accessing as hamzaboughanim06]
+[2025-11-16 12:42:11,010: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/hamzaboughanim06/DL-kidney-disease-classification "HTTP/1.1 200 OK"]
+[2025-11-16 12:42:11,662: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 12:42:11,666: INFO: helpers: Initialized MLflow to track repo "hamzaboughanim06/DL-kidney-disease-classification"]
+[2025-11-16 12:42:11,670: INFO: helpers: Repository hamzaboughanim06/DL-kidney-disease-classification initialized!]
+[2025-11-16 12:42:18,371: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 12:42:20,219: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpn0lmu6va\model\data\model\assets]
+[2025-11-16 12:55:51,617: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 13:09:55,444: INFO: main: *******************]
+[2025-11-16 13:09:55,445: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 13:09:55,448: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 13:09:55,450: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 13:09:55,451: INFO: common: created directory at: artifacts]
+[2025-11-16 13:10:45,265: INFO: common: json file saved at: scores.json]
+[2025-11-16 13:10:45,930: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 13:10:45,937: INFO: helpers: Accessing as hamzaboughanim06]
+[2025-11-16 13:10:46,817: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/hamzaboughanim06/DL-kidney-disease-classification "HTTP/1.1 200 OK"]
+[2025-11-16 13:10:47,231: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 13:10:47,236: INFO: helpers: Initialized MLflow to track repo "hamzaboughanim06/DL-kidney-disease-classification"]
+[2025-11-16 13:10:47,238: INFO: helpers: Repository hamzaboughanim06/DL-kidney-disease-classification initialized!]
+[2025-11-16 13:10:50,189: ERROR: main: 'Evaluation' object has no attribute 'moel']
+Traceback (most recent call last):
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\main.py", line 55, in <module>
+    model_evalution.main()
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 16, in main
+    evaluation.log_into_mlflow()
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 87, in log_into_mlflow
+    mlflow.keras.log_model(self.moel, "model")
+AttributeError: 'Evaluation' object has no attribute 'moel'. Did you mean: 'model'?
+[2025-11-16 13:13:00,966: INFO: main: *******************]
+[2025-11-16 13:13:00,968: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 13:13:00,973: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 13:13:00,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 13:13:00,977: INFO: common: created directory at: artifacts]
+[2025-11-16 13:13:56,697: INFO: common: json file saved at: scores.json]
+[2025-11-16 13:13:57,469: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 13:13:57,483: INFO: helpers: Accessing as hamzaboughanim06]
+[2025-11-16 13:13:58,374: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/hamzaboughanim06/DL-kidney-disease-classification "HTTP/1.1 200 OK"]
+[2025-11-16 13:13:59,043: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 13:13:59,047: INFO: helpers: Initialized MLflow to track repo "hamzaboughanim06/DL-kidney-disease-classification"]
+[2025-11-16 13:13:59,049: INFO: helpers: Repository hamzaboughanim06/DL-kidney-disease-classification initialized!]
+[2025-11-16 13:14:03,562: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 13:14:04,647: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpv49lox28\model\data\model\assets]
+[2025-11-16 13:23:34,185: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /hamzaboughanim06/DL-kidney-disease-classification.mlflow/api/2.0/mlflow-artifacts/artifacts/73acc4c57a6a4229b4de19dc204ae180/2f078dde72b8472685e6ff7c60978aba/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-11-16 13:38:21,797: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 13:44:24,869: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-16 13:44:24,873: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 13:44:24,875: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 13:44:24,877: INFO: common: created directory at: artifacts]
+[2025-11-16 13:44:24,879: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-16 13:44:24,880: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-16 13:48:15,019: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-16 13:48:18,857: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-11-16 13:48:18,858: INFO: main: >>>>>> stage prepare Base Model started <<<<<<]
+[2025-11-16 13:48:18,861: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 13:48:18,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 13:48:18,865: INFO: common: created directory at: artifacts]
+[2025-11-16 13:48:18,866: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-16 13:48:20,238: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-11-16 13:48:20,666: INFO: main: >>>>>> stage prepare Base Model completed <<<<<<
+
+x==========x]
+[2025-11-16 13:48:20,667: INFO: main: *******************]
+[2025-11-16 13:48:20,669: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-11-16 13:48:20,679: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 13:48:20,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 13:48:20,683: INFO: common: created directory at: artifacts]
+[2025-11-16 13:48:20,687: INFO: common: created directory at: artifacts\training]
+[2025-11-16 13:55:05,287: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-11-16 13:55:05,287: INFO: main: *******************]
+[2025-11-16 13:55:05,289: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 13:55:05,294: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 13:55:05,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 13:55:05,299: INFO: common: created directory at: artifacts]
+[2025-11-16 13:55:52,253: INFO: common: json file saved at: scores.json]
+[2025-11-16 13:55:52,885: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 13:55:52,895: INFO: helpers: Accessing as hamzaboughanim06]
+[2025-11-16 13:55:53,638: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/hamzaboughanim06/DL-kidney-disease-classification "HTTP/1.1 200 OK"]
+[2025-11-16 13:55:54,335: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 13:55:54,345: INFO: helpers: Initialized MLflow to track repo "hamzaboughanim06/DL-kidney-disease-classification"]
+[2025-11-16 13:55:54,353: INFO: helpers: Repository hamzaboughanim06/DL-kidney-disease-classification initialized!]
+[2025-11-16 13:55:58,499: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 13:55:59,540: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpw7dfs_so\model\data\model\assets]
+[2025-11-16 14:07:49,739: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-11-16 14:10:19,004: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-11-16 14:10:19,008: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 14:10:19,010: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 14:10:19,011: INFO: common: created directory at: artifacts]
+[2025-11-16 14:10:19,012: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-16 14:10:19,013: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-16 14:14:10,887: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-11-16 14:14:15,525: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-11-16 14:14:15,528: INFO: main: >>>>>> stage prepare Base Model started <<<<<<]
+[2025-11-16 14:14:15,534: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 14:14:15,540: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 14:14:15,542: INFO: common: created directory at: artifacts]
+[2025-11-16 14:14:15,544: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-11-16 14:14:17,367: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-11-16 14:14:18,007: INFO: main: >>>>>> stage prepare Base Model completed <<<<<<
+
+x==========x]
+[2025-11-16 14:14:18,007: INFO: main: *******************]
+[2025-11-16 14:14:18,009: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-11-16 14:14:18,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 14:14:18,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 14:14:18,025: INFO: common: created directory at: artifacts]
+[2025-11-16 14:14:18,029: INFO: common: created directory at: artifacts\training]
+[2025-11-16 14:23:11,248: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-11-16 14:23:11,250: INFO: main: *******************]
+[2025-11-16 14:23:11,251: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-16 14:23:11,264: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-16 14:23:11,271: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-16 14:23:11,272: INFO: common: created directory at: artifacts]
+[2025-11-16 14:24:03,897: INFO: common: json file saved at: scores.json]
+[2025-11-16 14:24:04,656: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 14:24:04,673: INFO: helpers: Accessing as hamzaboughanim06]
+[2025-11-16 14:24:05,695: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/hamzaboughanim06/DL-kidney-disease-classification "HTTP/1.1 200 OK"]
+[2025-11-16 14:24:06,487: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-11-16 14:24:06,492: INFO: helpers: Initialized MLflow to track repo "hamzaboughanim06/DL-kidney-disease-classification"]
+[2025-11-16 14:24:06,495: INFO: helpers: Repository hamzaboughanim06/DL-kidney-disease-classification initialized!]
+[2025-11-16 14:24:13,836: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-11-16 14:24:15,931: INFO: builder_impl: Assets written to: C:\Users\Hamza\AppData\Local\Temp\tmpevbf__ab\model\data\model\assets]
+[2025-11-16 14:36:50,489: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
