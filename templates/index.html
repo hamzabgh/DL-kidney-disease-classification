@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Object Classification</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4a6ee0;
+            --primary-dark: #3a5ac8;
+            --secondary-color: #6c757d;
+            --light-bg: #f8f9fa;
+            --dark-bg: #343a40;
+            --success-color: #28a745;
+            --warning-color: #ffc107;
+            --info-color: #17a2b8;
+            --border-radius: 12px;
+            --box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            padding: 20px 0;
+        }
+        
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            animation: float 20s linear infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(-20px, -20px) rotate(360deg); }
+        }
+        
+        .header h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+            position: relative;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.2rem;
+            position: relative;
+        }
+        
+        .content-section {
+            padding: 0 30px 30px;
+        }
+        
+        .card {
+            border: none;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            margin-bottom: 25px;
+            height: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+        
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-bottom: 1px solid #eaeaea;
+            padding: 18px 25px;
+            font-weight: 700;
+            color: var(--dark-bg);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
+        }
+        
+        .card-header i {
+            margin-right: 12px;
+            color: var(--primary-color);
+            font-size: 1.3rem;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 320px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            border: 2px dashed #dee2e6;
+            transition: var(--transition);
+        }
+        
+        .image-container:hover {
+            border-color: var(--primary-color);
+        }
+        
+        .image-container img,
+        .image-container video {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: var(--border-radius);
+        }
+        
+        .placeholder-text {
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .placeholder-text i {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            display: block;
+            color: #ced4da;
+            opacity: 0.7;
+        }
+        
+        .btn {
+            border-radius: 50px;
+            padding: 12px 25px;
+            font-weight: 600;
+            transition: var(--transition);
+            border: none;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            box-shadow: 0 4px 12px rgba(74, 110, 224, 0.3);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(74, 110, 224, 0.4);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, var(--success-color) 0%, #218838 100%);
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+        }
+        
+        .btn-success:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(40, 167, 69, 0.4);
+        }
+        
+        .btn-warning {
+            background: linear-gradient(135deg, var(--warning-color) 0%, #e0a800 100%);
+            box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
+            color: #212529;
+        }
+        
+        .btn-warning:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(255, 193, 7, 0.4);
+            color: #212529;
+        }
+        
+        .btn-info {
+            background: linear-gradient(135deg, var(--info-color) 0%, #138496 100%);
+            box-shadow: 0 4px 12px rgba(23, 162, 184, 0.3);
+        }
+        
+        .btn-info:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(23, 162, 184, 0.4);
+        }
+        
+        .results-container {
+            height: 320px;
+            overflow-y: auto;
+            border: 1px solid #eaeaea;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            background-color: #f8f9fa;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .json-result {
+            white-space: pre-wrap;
+            word-break: break-all;
+            line-height: 1.5;
+        }
+        
+        .result-image {
+            max-width: 100%;
+            max-height: 280px;
+            border-radius: var(--border-radius);
+            object-fit: contain;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 12px;
+            margin-top: 25px;
+        }
+        
+        .action-buttons .btn {
+            flex: 1;
+        }
+        
+        #loading {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: rgba(255, 255, 255, 0.95);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(5px);
+        }
+        
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--primary-color);
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            animation: spin 1.5s linear infinite;
+            margin-bottom: 25px;
+        }
+        
+        .loading-text {
+            font-size: 1.3rem;
+            color: var(--dark-bg);
+            font-weight: 600;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .logo {
+            position: fixed;
+            right: 25px;
+            bottom: 25px;
+            width: 90px;
+            opacity: 0.8;
+            transition: var(--transition);
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+        }
+        
+        .logo:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .file-input-wrapper input[type=file] {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        
+        .file-input-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: 2px dashed #ced4da;
+            border-radius: var(--border-radius);
+            text-align: center;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+        
+        .file-input-button:hover {
+            background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        .train-section {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            border-left: 4px solid var(--warning-color);
+        }
+        
+        .train-results {
+            background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+            border-left: 4px solid var(--info-color);
+        }
+        
+        .status-indicator {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        
+        .status-ready {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .status-training {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        
+        .status-complete {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+        
+        .progress-container {
+            margin-top: 15px;
+        }
+        
+        .progress {
+            height: 10px;
+            border-radius: 5px;
+            background-color: #e9ecef;
+        }
+        
+        .progress-bar {
+            border-radius: 5px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+        }
+        
+        @media (max-width: 768px) {
+            .content-section {
+                padding: 0 15px 20px;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .logo {
+                position: relative;
+                right: auto;
+                bottom: auto;
+                display: block;
+                margin: 20px auto 0;
+            }
+            
+            .image-container {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1><i class="fas fa-brain"></i> Object Classification System</h1>
+            <p>Advanced AI-powered object detection and classification</p>
+        </div>
+        
+        <div class="content-section">
+            <div class="row">
+                <!-- Input Section -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-upload"></i> Input Image
+                            <span class="status-indicator status-ready" id="inputStatus">Ready</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="image-container" id="imagePreview">
+                                <div class="placeholder-text">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <p>Upload an image or capture from camera</p>
+                                </div>
+                                <video autoplay id="video" style="display:none;"></video>
+                                <img src="" id="photo" style="display:none;">
+                                <canvas style="display:none;" id="canvas"></canvas>
+                            </div>
+                            
+                            <div class="file-input-wrapper mb-4">
+                                <div class="file-input-button">
+                                    <i class="fas fa-folder-open"></i> Choose Image File
+                                </div>
+                                <input type="file" id="fileinput" accept="image/*">
+                            </div>
+                            
+                            <div class="action-buttons">
+                                <button id="uload" class="btn btn-primary">
+                                    <i class="fas fa-upload"></i> Upload Image
+                                </button>
+                                <button id="send" class="btn btn-success">
+                                    <i class="fas fa-search"></i> Classify Objects
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Results Section -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-chart-bar"></i> Classification Results
+                            <span class="status-indicator" id="resultStatus">Waiting</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <h6><i class="fas fa-image"></i> Processed Image</h6>
+                                    <div class="results-container d-flex align-items-center justify-content-center">
+                                        <div class="placeholder-text">
+                                            <i class="fas fa-clock"></i>
+                                            <p>Results will appear here</p>
+                                        </div>
+                                        <img id="resultImage" class="result-image" style="display:none;">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6><i class="fas fa-code"></i> JSON Data</h6>
+                                    <div class="results-container">
+                                        <div class="json-result" id="jsonResult">
+                                            {/* Classification results will appear here */}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Training Section -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card train-section">
+                        <div class="card-header">
+                            <i class="fas fa-cogs"></i> Model Training
+                            <span class="status-indicator" id="trainStatus">Ready</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h5>Train Your Model</h5>
+                                    <p class="text-muted">Click the button below to start training the object classification model with your dataset.</p>
+                                    <button id="trainModel" class="btn btn-warning">
+                                        <i class="fas fa-play-circle"></i> Start Training
+                                    </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="train-results p-3 rounded">
+                                        <h6><i class="fas fa-list-alt"></i> Training Results</h6>
+                                        <div id="trainResults" class="mt-2">
+                                            <p class="text-muted mb-1">No training results yet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-container" id="trainProgress" style="display: none;">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>Training Progress</span>
+                                    <span id="progressText">0%</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAAlCAMAAABBJDpuAAAAVFBMVEX/fgD/iQA7NzIyMjMnNYInNYEnNYInNYEzMzInNYQnNYETJzsnNYIwN1wxMjNoTis4O1YrNm0xOF47PE9DP0dEQEVpTVkAJJ4nNYEOLJHJbiAzMzOmmmHRAAAAFnRSTlOh/vu+986oen9fP2UqEzQkFAIDAAEEILVBJQAAA3FJREFUWMPNmO2WoyAMQG0VBARtdVRs3/89NwkgaF1rd2aOm18tIrnkgwSz7n+R7LcV1ELkeS7E7VySRlyfQXJhTiO55c+liP4cEuH1X8E7gaV+S3Jv2zYZ/Vr+/Sdx2vP6doc/fSPcf/GOpLSFVXFUW8t+giRP47TOd60yk1hbxIhSP0ACKPWrvw7YBIT/lcQY84G3Wk17ugWQfg5UsQJpjflKSLQi7xTWyk0SXTJ4VnB5D1yccxmp4Z+mX5KGNS+SPXVNll0ulyxL0wYmloBB6zL/MpCoAgjAJiUM6w0SboMwPUdRogvNKcNM3smFdRvEcJJkKcflQa+X0pNIfBGW0zKqjyQtw4VLKQlI7ZLgdrRNSZDjMQx2GB4pCkxkCrfGWUTJ0Egan6muCHgJCUwtnCk0mrJ9Q8K5LUqtdSfynkAedhynaRqngVDaXLiJEAzkFkM71IuIlWRYtSQpbXSZDvQ7JPCei9brs+oaABkn74LRIkpFaVxGnzjvIxTYREOoEwn5r01JTDRTcO87Eu3zNUeTPKZpjrIRrNIDCjzALbPk7LJMIokOEQu2K7yKQAKvFDF9pVe0R+LGb7h1MMkw2ijjA/1zhSfSphvEAChXJEhAqwYStIJWXnTpvbdH4hTUwSQ2JRmQpILDLYbB7J41SYiLcNozu5Z3JMo7RxBJahI7WSRByCMkqJt9hySESbVJcvmARJGFExJmdBSl2oM2+T4JLWfgaGFptizlPUm1FydHSdyZ7UnS4ySph2kS0kJrkvr5NJg7dnrJnfxgxPozRPGtkyPNOxtaiDvbIAF9L+5B5zTI2BwlwXmM+U3zReav3o0F8oUEFFZ42McDZYomOUziFmezgWyo251Uc1nyKJol7URCEvIYUEbHYaEGQi9C9egwCdVfHwiaajfjKMUcHcRacCylhWJbJDfq47EEDhYqoIWjHnwDXZPpPiChPQelLU+Cbm4w50FmYgkvFwpiWwCC/Um/SLcNElOC9RVj6qWpCiEMvRUK4zLpdKmPw8rVldy/qxjn60wLrVLWJIPLiZJRr3fsvnOHPvare+lB93tb37T20D82jqOt+zNuXhuNvNhp7X+PpHb3rvV9R5xjE2SpyCN9ffQO+GtWIZr5Xnytz4gTMIRYfys47/uJEXny/aQ/95tSUwmU+uRvSp/IHzQqZYpYrQmxAAAAAElFTkSuQmCC" />
+
+    <div id="loading" style="display:none;">
+        <div class="loader"></div>
+        <div class="loading-text">Processing your request...</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        var base_data = "";
+        var isTraining = false;
+
+        function sendRequest(base64Data) {
+            var type = "json";
+            if (base64Data != "" && base64Data != null) {
+                if (type == "imgtobase") {
+                    $("#jsonResult").text(base64Data);
+                } else if (type == "basetoimg") {
+                    var imageData = $("#imgstring").val();
+                    $("#resultImage").attr('src', 'data:image/jpeg;base64,' + imageData).show();
+                } else {
+                    var url = "/predict";
+                    $("#loading").show();
+                    $("#resultStatus").text("Processing...").removeClass().addClass("status-indicator status-training");
+                    
+                    $.ajax({
+                        url: url,
+                        type: "post",
+                        cache: false,
+                        async: true,
+                        crossDomain: true,
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Access-Control-Allow-Origin': '*'
+                        },
+                        data: JSON.stringify({ image: base64Data }),
+                        success: function(res) {
+                            $("#jsonResult").text("");
+                            $("#resultImage").hide();
+                            
+                            try {
+                                var imageData = res[1].image;
+                                if (imageData && imageData.length > 100) {
+                                    $("#resultImage").attr('src', 'data:image/jpeg;base64,' + imageData).show();
+                                }
+                            } catch(e) {
+                                console.log("No image in response");
+                            }
+                            
+                            $("#jsonResult").text(JSON.stringify(res[0], undefined, 2));
+                            $("#loading").hide();
+                            $("#resultStatus").text("Complete").removeClass().addClass("status-indicator status-complete");
+                        },
+                        error: function(xhr, status, error) {
+                            $("#jsonResult").text("Error: " + error);
+                            $("#loading").hide();
+                            $("#resultStatus").text("Error").removeClass().addClass("status-indicator status-error");
+                        }
+                    });
+                }
+            } else {
+                alert("Please upload an image first.");
+            }
+        }
+
+        function startTraining() {
+            if (isTraining) {
+                alert("Training is already in progress!");
+                return;
+            }
+            
+            isTraining = true;
+            $("#trainStatus").text("Training...").removeClass().addClass("status-indicator status-training");
+            $("#trainProgress").show();
+            $("#trainResults").html('<p class="text-muted mb-1">Training started...</p>');
+            
+            // Simulate progress updates
+            var progress = 0;
+            var progressInterval = setInterval(function() {
+                progress += Math.random() * 10;
+                if (progress >= 100) {
+                    progress = 100;
+                    clearInterval(progressInterval);
+                }
+                updateProgress(progress);
+            }, 500);
+            
+            $.ajax({
+                url: "/train",
+                type: "post",
+                cache: false,
+                async: true,
+                success: function(res) {
+                    clearInterval(progressInterval);
+                    updateProgress(100);
+                    $("#trainResults").html(
+                        '<div class="alert alert-success">' +
+                        '<i class="fas fa-check-circle"></i> ' +
+                        '<strong>Training Completed Successfully!</strong><br>' +
+                        res +
+                        '</div>'
+                    );
+                    $("#trainStatus").text("Complete").removeClass().addClass("status-indicator status-complete");
+                    isTraining = false;
+                },
+                error: function(xhr, status, error) {
+                    clearInterval(progressInterval);
+                    $("#trainResults").html(
+                        '<div class="alert alert-danger">' +
+                        '<i class="fas fa-exclamation-triangle"></i> ' +
+                        '<strong>Training Failed:</strong> ' + error +
+                        '</div>'
+                    );
+                    $("#trainStatus").text("Failed").removeClass().addClass("status-indicator status-error");
+                    isTraining = false;
+                }
+            });
+        }
+
+        function updateProgress(percent) {
+            $("#progressBar").css("width", percent + "%");
+            $("#progressText").text(Math.round(percent) + "%");
+        }
+
+        $(document).ready(function() {
+            $("#loading").hide();
+            $("#trainProgress").hide();
+
+            $('#send').click(function(evt) {
+                sendRequest(base_data);
+            });
+
+            $('#uload').click(function(evt) {
+                $('#fileinput').focus().trigger('click');
+            });
+            
+            $('#trainModel').click(function(evt) {
+                startTraining();
+            });
+            
+            $("#fileinput").change(function() {
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        var url = e.target.result;
+                        var img = new Image();
+                        img.crossOrigin = 'Anonymous';
+                        img.onload = function() {
+                            var canvas = document.createElement('CANVAS');
+                            var ctx = canvas.getContext('2d');
+                            canvas.height = this.height;
+                            canvas.width = this.width;
+                            ctx.drawImage(this, 0, 0);
+                            base_data = canvas.toDataURL('image/jpeg', 1.0).replace(/^data:image.+;base64,/, '');
+                            canvas = null;
+                            $("#inputStatus").text("Image Loaded").removeClass().addClass("status-indicator status-complete");
+                        };
+                        img.src = url;
+                        $('#photo').attr('src', url).show();
+                        $('#video').hide();
+                        $('.placeholder-text').hide();
+                    }
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

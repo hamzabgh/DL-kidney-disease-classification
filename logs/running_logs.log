@@ -497,3 +497,156 @@ x==========x]
 [2025-11-18 23:20:24,696: INFO: common: yaml file: config\config.yaml loaded successfully]
 [2025-11-18 23:20:24,698: INFO: common: yaml file: params.yaml loaded successfully]
 [2025-11-18 23:20:24,699: INFO: common: created directory at: artifacts]
+[2025-11-21 12:00:57,448: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:00:57,448: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:01:08,236: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:01:08] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:02:37,400: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\app.py", line 43, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Hamza\Desktop\DL-kidney-disease-classification\venv\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2025-11-21 12:02:37,417: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:02:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-11-21 12:12:42,926: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:12:42,927: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:18:17,848: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:18:17,849: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:18:47,964: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:18:47] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:18:55,573: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:18:55] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:19:06,387: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:19:06] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:19:15,599: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:19:15] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:19:32,233: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:19:32] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:19:50,382: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:19:50,382: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:19:50,608: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:19:50] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:21:09,058: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:21:09,058: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:21:12,885: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:21:12] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:21:20,666: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:21:20] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:21:29,731: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:21:29] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:21:45,809: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:21:45] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:23:08,624: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:23:08,625: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:23:34,408: INFO: stage_04_model_evaluation: *******************]
+[2025-11-21 12:23:34,409: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-11-21 12:23:34,413: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-21 12:23:34,421: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-21 12:23:34,422: INFO: common: created directory at: artifacts]
+[2025-11-21 12:24:18,949: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:24:18,949: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:24:23,815: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:24:23] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:24:26,741: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:24:26] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:24:40,631: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:24:40] "GET /train HTTP/1.1" 200 -]
+[2025-11-21 12:24:40,889: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:24:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-11-21 12:24:48,119: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:24:48] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:25:16,587: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:25:16] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:34:56,797: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:34:56] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:35:10,914: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:35:10,915: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:35:51,104: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:35:51] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:36:08,933: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:36:08] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:36:19,082: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:36:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -]
+[2025-11-21 12:36:29,223: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:36:29] "POST /train HTTP/1.1" 200 -]
+[2025-11-21 12:37:05,150: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:37:05] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:46:49,817: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:46:49,817: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:46:54,569: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:46:54] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:47:06,030: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:47:06] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:47:14,389: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:47:14] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 12:47:24,289: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:47:24] "POST /train HTTP/1.1" 200 -]
+[2025-11-21 12:51:47,886: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 12:51:47,886: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 12:51:47,902: INFO: _internal:  * Restarting with stat]
+[2025-11-21 12:51:54,823: WARNING: _internal:  * Debugger is active!]
+[2025-11-21 12:51:54,838: INFO: _internal:  * Debugger PIN: 989-439-340]
+[2025-11-21 12:52:00,254: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:52:00] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:52:07,584: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:52:07] "GET /train HTTP/1.1" 200 -]
+[2025-11-21 12:52:10,574: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:52:10] "GET /train_progress HTTP/1.1" 200 -]
+[2025-11-21 12:52:23,177: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:52:23] "[31m[1mPOST /train HTTP/1.1[0m" 405 -]
+[2025-11-21 12:53:42,839: INFO: _internal:  * Detected change in 'C:\\Users\\Hamza\\Desktop\\DL-kidney-disease-classification\\app.py', reloading]
+[2025-11-21 12:53:43,548: INFO: _internal:  * Restarting with stat]
+[2025-11-21 12:53:53,162: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:53:53] "GET / HTTP/1.1" 200 -]
+[2025-11-21 12:54:01,136: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 12:54:01] "POST /train HTTP/1.1" 200 -]
+[2025-11-21 13:10:50,526: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 13:10:50,527: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 13:10:50,529: INFO: _internal:  * Restarting with stat]
+[2025-11-21 13:11:00,651: WARNING: _internal:  * Debugger is active!]
+[2025-11-21 13:11:00,671: INFO: _internal:  * Debugger PIN: 989-439-340]
+[2025-11-21 13:11:01,386: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:11:01] "GET / HTTP/1.1" 200 -]
+[2025-11-21 13:11:12,368: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:11:12] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 13:11:20,394: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:11:20] "POST /predict HTTP/1.1" 200 -]
+[2025-11-21 13:11:28,615: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:11:28] "GET /train_progress HTTP/1.1" 200 -]
+[2025-11-21 13:12:24,980: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:12:24] "GET /train_progress HTTP/1.1" 200 -]
+[2025-11-21 13:13:16,354: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:13:16] "GET / HTTP/1.1" 200 -]
+[2025-11-21 13:13:33,759: INFO: _internal:  * Detected change in 'C:\\Users\\Hamza\\Desktop\\DL-kidney-disease-classification\\app.py', reloading]
+[2025-11-21 13:13:34,855: INFO: _internal:  * Restarting with stat]
+[2025-11-21 13:13:42,308: WARNING: _internal:  * Debugger is active!]
+[2025-11-21 13:13:42,330: INFO: _internal:  * Debugger PIN: 989-439-340]
+[2025-11-21 13:13:52,731: INFO: _internal:  * Detected change in 'C:\\Users\\Hamza\\Desktop\\DL-kidney-disease-classification\\app.py', reloading]
+[2025-11-21 13:13:53,401: INFO: _internal:  * Restarting with stat]
+[2025-11-21 13:14:12,720: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4004
+ * Running on http://192.168.11.139:4004]
+[2025-11-21 13:14:12,722: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-21 13:14:12,724: INFO: _internal:  * Restarting with stat]
+[2025-11-21 13:14:20,616: WARNING: _internal:  * Debugger is active!]
+[2025-11-21 13:14:20,630: INFO: _internal:  * Debugger PIN: 989-439-340]
+[2025-11-21 13:14:21,065: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:14:21] "GET / HTTP/1.1" 200 -]
+[2025-11-21 13:14:33,504: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:14:33] "GET /train_progress HTTP/1.1" 200 -]
+[2025-11-21 13:14:41,199: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:14:41] "GET /train_progress HTTP/1.1" 200 -]
+[2025-11-21 13:14:49,187: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:14:49] "GET /train_progress HTTP/1.1" 200 -]
+[2025-11-21 13:14:58,536: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:14:58] "GET /train_progress HTTP/1.1" 200 -]
+[2025-11-21 13:15:05,242: INFO: _internal: 127.0.0.1 - - [21/Nov/2025 13:15:05] "GET /train_progress HTTP/1.1" 200 -]
