@@ -4,6 +4,7 @@ from flask_cors import CORS, cross_origin
 from cnnClassifier.utils.common import decodeImage
 from cnnClassifier.pipeline.prediction import PredictionPipeline
 import subprocess
+import sys
 
 
 
@@ -31,7 +32,7 @@ def home():
 @app.route("/train", methods=['GET','POST'])
 def trainRoute():
     try:
-        subprocess.run(["python", "main.py"], check=True)
+        subprocess.run([sys.executable, "main.py"], check=True)
 
         # subprocess.run(["dvc", "repro"], check=True)
         return "Training done successfully!"
